@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ieee-website/static/css/main.5c77780c.css",
+    "main.js": "/ieee-website/static/js/main.e7f17513.js",
+    "static/js/787.02d56b45.chunk.js": "/ieee-website/static/js/787.02d56b45.chunk.js",
+    "static/media/ieelogo.png": "/ieee-website/static/media/ieelogo.ad2f8ce20ad29f55eb2c.png",
+    "static/media/img1.png": "/ieee-website/static/media/img1.8fc6be86e5a980688fef.png",
+    "index.html": "/ieee-website/index.html",
+    "main.5c77780c.css.map": "/ieee-website/static/css/main.5c77780c.css.map",
+    "main.e7f17513.js.map": "/ieee-website/static/js/main.e7f17513.js.map",
+    "787.02d56b45.chunk.js.map": "/ieee-website/static/js/787.02d56b45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c77780c.css",
+    "static/js/main.e7f17513.js"
+  ]
+}
