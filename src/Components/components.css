@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;800&family=Lobster+Two:ital,wght@0,700;1,400&display=swap');
+
+.homeimg3{
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+  }
+
+  /* .wrapper {
+    position: relative;
+  } */
+  
+  /* .feedback {
+    position: fixed;
+    left: 250px;
+    top: 10px;
+  } */
+
+.font{
+    color: red;
+    font-family: 'Epilogue', sans-serif;
+line-height: 111%;
+}
