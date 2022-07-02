@@ -1,44 +1,54 @@
 import * as React from "react";
 import logo from "../images/ieelogo.png";
 
+import "./components.css";
+
 function Navbar() {
   let url = "#";
   return (
-    <nav className='navbar fixed-top navbar-expand-lg navbar-dark bg-custom'>
-      <div className='container-fluid'>
-        <a href={url} className='navbar-brand'>
-          <img style={{ width: "50px" }} src={logo} alt='logo' />
-        </a>
+    <nav className='navbar navbar-expand-lg navbar-dark'>
+      <div className='container-fluid d-flex'>
+        <img
+          style={{ width: "50px" }}
+          className='mx-5 my-3'
+          src={logo}
+          alt='logo'
+        />
         <button
+          className='navbar-toggler '
           type='button'
-          className='navbar-toggler'
           data-bs-toggle='collapse'
-          data-bs-target='#navbarCollapse'
+          data-bs-target='#navbarTogglerDemo02'
+          aria-controls='navbarTogglerDemo02'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
         >
           <span className='navbar-toggler-icon'></span>
         </button>
-        <div className='collapse navbar-collapse' id='navbarCollapse'>
-          <div className='navbar-nav'>
-            <a href={url} className='nav-item nav-link active'>
-              ABOUT
-            </a>
-            <a href={url} className='nav-item nav-link active'>
-              EVENTS
-            </a>
-            <a href={url} className='nav-item nav-link active'>
-              GALLERY
-            </a>
-            <a href={url} className='nav-item nav-link active'>
-              AWARDS
-            </a>
-          </div>
-          <div className='navbar-nav ms-auto'>
-            <a href={url} className='nav-item nav-link'>
-              <button type='button' className='btn btn-outline-light'>
-                <strong>CONTACT</strong>
-              </button>
-            </a>
-          </div>
+        <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
+          <ul className='navbar-nav me-auto mb-2 mb-lg-0 wrapper'>
+            <li className='nav-item'>
+              <a className='nav-link font hover-text fs-5 px-4' href={url}>
+                Events
+              </a>
+            </li>
+            <li className='nav-item '>
+              <a className='nav-link font hover-text fs-5 px-4' href={url}>
+                About
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link font hover-text fs-5 px-4' href={url}>
+                Gallary
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link font hover-text fs-5 px-4' href={url}>
+                Awards
+              </a>
+            </li>
+            <button className='btn font'>Contact</button>
+          </ul>
         </div>
       </div>
     </nav>
