@@ -1,52 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;800&family=Lobster+Two:ital,wght@0,700;1,400&display=swap');
 
-.homeimg3{
-    position: absolute;
-    z-index: 1;
-    right: 20%;
-  }
-
-.font{
-    color: white !important;
-    font-family: 'Epilogue', sans-serif;
-line-height: 111%;
-}
-
-.wrapper {
+.homeimg3 {
   position: absolute;
-  top: 50%;
-  left:50%;
-  -webkit-transform: translate(-50%,-50%);
+  z-index: 1;
+  right: 20%;
 }
 
-.nav-item a {
-  color: #fff;
-  font-size: 2em;
-  text-decoration: none;
-  position: relative;
-  font-family: 'Dosis', sans-serif;
-}
-
-.hover-text:after {
-	content: '';
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
-  width: 100%;
-  border-bottom: 1px solid;
-  margin-top: 10px;
-  opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-.hover-text:hover:after {
-  opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
+* {
+  color: white;
+  font-family: 'Epilogue', sans-serif;
+  line-height: 111%;
 }
 
 
@@ -69,8 +32,9 @@ line-height: 111%;
 }
 
 
-@media (max-width: 991px){
-  .right-img{
-    width: 55vw;
+@media (max-width: 990px) {
+  .right-img {
+    display: none;
   }
+
 }

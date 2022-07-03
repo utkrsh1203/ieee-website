@@ -1,6 +1,7 @@
 import * as React from "react";
 import img1 from "../images/img1.png";
 import img4 from "../images/img4.png";
+// import img3 from "../images/img3.png";
 import "./components.css";
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <div>
       <div
         className='p-5 container d-flex flex-wrap '
-        style={{ backgroundColor: "#29283e" }}
+        style={({ backgroundColor: "#29283e" }, { position: "relative" })}
       >
         <div className=' col-lg-6 col-sm-12'>
           {/* <img className='homeimg3' src={img3} alt='home-img-3' /> */}
@@ -40,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className='col-lg-6 col-sm-12'>
-          <img src={img1} alt='' className='img-fluid w-85 right-img' />
+          <img src={img1} alt='' className='img-fluid  right-img' />
         </div>
       </div>
     </div>
