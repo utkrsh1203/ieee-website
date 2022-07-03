@@ -1,7 +1,7 @@
 import * as React from "react";
 import img1 from "../images/img1.png";
 import img4 from "../images/img4.png";
-// import img3 from "../images/img3.png";
+import img3 from "../images/img3.png";
 import "./components.css";
 
 export default function Home() {
@@ -9,12 +9,12 @@ export default function Home() {
     <div>
       <div
         className='p-5 container d-flex flex-wrap '
-        style={({ backgroundColor: "#29283e" }, { position: "relative" })}
+        style={{ backgroundColor: "#29283e" }}
       >
-        <div className=' col-lg-6 col-sm-12'>
-          {/* <img className='homeimg3' src={img3} alt='home-img-3' /> */}
+        <div className=' col-lg-6 col-sm-12' style={{ position: "relative" }}>
+          <img className='homeimg3' src={img3} alt='home-img-3' />
           <h5 className='text-primary fs-6 py-3  fw-light'>IEEE NSUT</h5>
-          <h1 className='text-light fs-1 font fw-bold' style={{ zIndex: "1" }}>
+          <h1 className='text-light fs-1 font fw-bold title'>
             We're here <br />
             to build <br />
             your career
@@ -25,10 +25,10 @@ export default function Home() {
             design, business understanding.
           </h5>
           <div>
-            <button type='button' class=' btn my-3 fs-6'>
+            <button type='button' className=' btn my-3 fs-6'>
               READ MORE
             </button>
-            <button type='button' class='btn my-3 mx-3 fs-6'>
+            <button type='button' className='btn my-3 mx-3 fs-6'>
               Contact Us
             </button>
           </div>

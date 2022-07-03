@@ -2,8 +2,17 @@
 
 .homeimg3 {
   position: absolute;
+  z-index: 0;
+  width: 5.8rem;
+  /* right: 260px; */
+  left: 9rem;
+  top: 2.2rem;
+  /* top: 35px; */
+}
+
+.title {
+  position: relative;
   z-index: 1;
-  right: 20%;
 }
 
 * {
@@ -37,4 +46,34 @@
     display: none;
   }
 
+}
+
+@media (max-width : 768px) {
+  .homeimg3 {
+    position: absolute;
+    z-index: 0;
+    width: 5.8rem;
+    left: 8.3rem;
+    top: 2.1rem;
+  }
+}
+
+@media (max-width : 627px) {
+  .homeimg3 {
+    position: absolute;
+    z-index: 0;
+    width: 5.8rem;
+    left: 7.5rem;
+    top: 2.1rem;
+  }
+}
+
+@media (max-width : 480px) {
+  .homeimg3 {
+    position: absolute;
+    z-index: 0;
+    width: 5.8rem;
+    left: 6.8rem;
+    top: 2.1rem;
+  }
 }
