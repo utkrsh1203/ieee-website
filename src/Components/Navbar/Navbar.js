@@ -35,7 +35,7 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        <Button>Contact Us</Button>
+        <Button>Contact</Button>
       </nav>
     );
   }

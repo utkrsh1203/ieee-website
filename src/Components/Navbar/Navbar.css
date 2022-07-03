@@ -36,14 +36,14 @@
 .nav-links {
     color: #a0a0a0;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.8rem;
     display: inline;
 
 }
 
 .nav-links:hover {
-    border-radius: 4px;
     transition: all 0.2s ease-out;
+    color: white;
 }
 
 .fa-bars {
@@ -58,8 +58,17 @@
     display: none;
 }
 
+@media screen and (max-width: 766px) {
+    .nav-links {
+        padding: 0.8rem 1rem;
+    }
 
-@media screen and (max-width: 990px) {
+    .navbar-logo {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .down {
         margin-bottom: 35rem;
     }
@@ -92,13 +101,13 @@
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.8rem;
         width: 100%;
         display: table;
     }
 
     .nav-links:hover {
-        color: white;
+        color: white !important;
         border-radius: 0;
     }
 
