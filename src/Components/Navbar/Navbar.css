@@ -58,11 +58,12 @@
     display: none;
 }
 
-.down {
-    margin-bottom: 25rem;
-}
 
 @media screen and (max-width: 990px) {
+    .down {
+        margin-bottom: 30rem;
+    }
+
     .NavbarItems {
         position: relative;
         ;
